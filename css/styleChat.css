@@ -1,0 +1,91 @@
+body 
+{
+    background-image: url("images/degrade.jpg");
+}
+
+div.Topo
+{
+    text-align: center;
+}
+
+p
+{
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+.msgRec
+{
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.btnMsg
+{
+    position: absolute;
+    top: 575px;
+    left: 553px;;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: aliceblue;
+    background-color: rgb(0, 194, 0);
+    border: solid #99C624 0px;
+    box-shadow: 0px 0px 10px 0px #000000;
+    text-shadow: 1px 1px 57px #000000;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btnMsg:hover 
+{
+    background: rgb(9, 255, 0);
+    text-decoration: none;
+}
+
+.txtMsg
+{
+    top: 450px;
+    left: 536px;
+    font-family: sans-serif;
+    font-size: 22px;
+    position: absolute;
+}
+
+.quit 
+{
+    color: blue;
+    cursor: pointer;
+}
+
+.quit:hover
+{
+    color: rgb(0, 66, 209);
+}
+
+.msgRecebidas
+{
+    position: absolute;
+    font-family: sans-serif;
+    top: 125px;
+    left: 422px;
+    border-width: 1px;
+    border-color: rgb(0, 68, 255);
+    box-shadow: 8px 8px 20px 0px black;
+}
+
+.msgEnviadas
+{
+    position: absolute;
+    font-family: sans-serif;
+    top: 505px;
+    left: 422px;
+    border-width: 1px;
+    border-color: rgb(0, 68, 255);
+    box-shadow: 5px 5px 15px 0px black;
+}
